@@ -8,16 +8,18 @@ h1{
 .rayhans-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    
 }
 .half-width img{
     width: 75%;
+    
 }
 .link-button{
     text-decoration: none;
@@ -44,6 +46,39 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .text-allign{
     text-align: justify;
+}
+h2{
+    font-size: 40px;
+}
+.experience-item{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.experience-color{
+    color: orangered;
+
+}
+#web-dev-experience{
+    border-left: 7px solid;
+     border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-stack-item{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, orange);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
