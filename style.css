@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -20,7 +21,7 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(tomato, orange);
+    background-image: linear-gradient(tomato, rgb(246, 134, 60));
     color: white;
     font-weight: 800;
     padding: 10px 40px;
@@ -29,4 +30,20 @@ section{
 .top-banner{
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
+}
+.download-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 105, 68), rgb(255, 94, 0));
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    padding: 10px 40px;
+    border-radius: 8px;
+}
+.dream-big{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.text-allign{
+    text-align: justify;
 }
